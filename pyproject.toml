@@ -1,0 +1,20 @@
+[project]
+name = "goit-pyweb-hw-05"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Bohdan-Chekhirkin",email = "ist22-b.chekhirkin@nubip.edu.ua"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiohttp (>=3.11.11,<4.0.0)",
+    "certifi (>=2024.12.14,<2025.0.0)",
+    "black (>=25.1.0,<26.0.0)",
+    "httpx (>=0.28.1,<0.29.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
